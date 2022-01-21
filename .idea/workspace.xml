@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db90ab80-9d61-432d-9eec-b2c9f6cc0397" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contacts/style.module.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Instagram/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainMenu/MainMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainMenu/style.module.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Photoswipe/RootPhotoSwipe.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Photoswipe/default-skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Photoswipe/galery.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Photoswipe/photoswipe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductMenu/ProductMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductMenu/style.module.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Seo/Seo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/YandexMap/YandexMap.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/style.module.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/404.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/articles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contacts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/payments.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/portfolio/decor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/portfolio/facades.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/fonts/RuslanDisplay.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/fon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/icons/default-skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/icons/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/icons/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/icons/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/icons/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/icons/tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/icons/vk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/originals/pages/payments.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/default-skin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/facades.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/kitch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/ladder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/lamp2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/logo_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/logo_inline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/tables.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/pages/contacts.module.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/pages/index.module.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/сonstants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/сonstants/locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typings.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="2035KpZSTShNj6rx4RqNemm80CF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/static/images" />
+      <recent name="$PROJECT_DIR$/src/static/images/icons" />
+      <recent name="$PROJECT_DIR$/src/static/images/originals/pages" />
+      <recent name="$PROJECT_DIR$/src/static/images/bigs" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/pages/portfolio" />
+      <recent name="$PROJECT_DIR$/src/static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.develop (1)">
+    <configuration name="clean" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="clean" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="develop (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="develop" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="develop" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/loftwood/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="develop" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.develop (1)" />
+        <item itemvalue="npm.clean" />
+        <item itemvalue="npm.develop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="3" Folder0="$USER_HOME$/ru" Folder1="$USER_HOME$/ru" Folder2="$USER_HOME$/ru" CustomDictionaries="3" CustomDictionary0="$USER_HOME$/ru/ru_gen4.dic" CustomDictionary1="$USER_HOME$/ru/ru_names4.dic" CustomDictionary2="$USER_HOME$/ru/ru_phys4.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db90ab80-9d61-432d-9eec-b2c9f6cc0397" name="Changes" comment="" />
+      <created>1635260370131</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635260370131</updated>
+      <workItem from="1635260374535" duration="12323000" />
+      <workItem from="1635846171371" duration="59452000" />
+      <workItem from="1636378882977" duration="17323000" />
+      <workItem from="1636473027062" duration="1911000" />
+      <workItem from="1636912891465" duration="7912000" />
+      <workItem from="1638642346264" duration="487000" />
+      <workItem from="1638965770217" duration="10708000" />
+      <workItem from="1639493430730" duration="1199000" />
+      <workItem from="1639767905401" duration="4320000" />
+      <workItem from="1639990438588" duration="39000" />
+      <workItem from="1641922922649" duration="8751000" />
+      <workItem from="1642598854478" duration="7967000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
