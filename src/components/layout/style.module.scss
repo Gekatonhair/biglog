@@ -17,7 +17,7 @@
 
         header {
             align-content: flex-start;
-            background: @gradient-dark;
+            background: $gradient-dark;
         }
 
         main.content {
@@ -26,13 +26,13 @@
             align-self: flex-start;
             display: flex;
             flex-direction: column;
-            background: @color-light;
+            background: $color-light;
             padding: 1.5em 6em 6em 6em;
 
             a {
                 font-family: 'Comic Sans MS', 'Comic Sans', cursive;
                 text-decoration: none;
-                color: @color-contrast;
+                color: $color-contrast;
             }
             a:hover {
                 text-decoration: underline;
@@ -42,10 +42,10 @@
                 list-style-type: disc;
 
                 li {
-                    color: @color-contrast;
+                    color: $color-contrast;
 
                     p {
-                        color: @color-dark;
+                        color: $color-dark;
                     }
                 }
             }
@@ -59,8 +59,8 @@
             display: flex;
             flex-direction: column;
             font-family: 'Comic Sans MS', 'Comic Sans', cursive;
-            color: @color-light;
-            background: @gradient-dark;
+            color: $color-light;
+            background: $gradient-dark;
 
             nav {
                 margin-top: 2em;

@@ -2,12 +2,12 @@
 
 nav.product_menu {
     width: 65px;
-    background: @color-dark;
+    background: $color-dark;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
     font-family: 'Comic Sans MS', 'Comic Sans', cursive;
-    color: @color-light;
+    color: $color-light;
 
     .icon {
         height: 1.5em;
@@ -18,7 +18,7 @@ nav.product_menu {
         .line {
             display: block;
             position: relative;
-            background: @color-light;
+            background: $color-light;
             width: 100%;
             height: 0.25em;
             transition: 0.4s;
@@ -29,7 +29,7 @@ nav.product_menu {
                 content: '';
                 display: block;
                 position: absolute;
-                background: @color-light;
+                background: $color-light;
                 width: 100%;
                 height: 0.25em;
                 transition: 0.4s;
@@ -55,7 +55,7 @@ nav.product_menu {
             a {
                 height: 3em;
                 padding: 2px 5px 0 5px;
-                color: @color-light;
+                color: $color-light;
                 text-decoration: none;
                 display: flex;
                 flex-wrap: nowrap;
@@ -74,7 +74,7 @@ nav.product_menu {
                 p {
                     width: min-content;
                     align-self: center;
-                    color: @color-light;
+                    color: $color-light;
                     display: none;
                     margin: 0 20px;
                     padding-bottom: 3px;

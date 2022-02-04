@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Col} from 'react-bootstrap';
 import Layout from 'components/Layout/Layout';
 import paymentsImg from 'static/images/originals/pages/payments.jpg';
-import * as layoutStyles from 'components/Layout/style.module.less';
+import * as layoutStyles from 'components/Layout/style.module.scss';
 
 const TITLE = 'Доставка и оплата';
 

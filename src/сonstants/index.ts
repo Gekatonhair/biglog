@@ -5,14 +5,15 @@ export const mainMenuItems = {
         path: '/',
         title: 'Главная',
     },
-    /*articles: {
-        path: '/articles',
-        title: 'Статьи',
-    },*/
+
     payments: {
         path: '/payments',
         title: 'Доставка\u00A0и\u00A0оплата',
     },
+    /*articles: {
+        path: '/articles',
+        title: 'Статьи',
+    },*/
     about: {
         path: '/about',
         title: `О\u00A0нас`,
@@ -24,11 +25,11 @@ export const mainMenuItems = {
 };
 
 export const productMenuItems  = {
-    facades: {
-        path: '/portfolio/facades',
-        title: 'Фасады\u00A0и\u00A0заборы',
+    fences: {
+        path: '/portfolio/fences',
+        title: 'Заборы\u00A0и\u00A0фасады',
     },
-    tables: {
+    /*tables: {
         path: '/portfolio/tables',
         title: 'Столы,\u00A0столешницы\u00A0и барные\u00A0стойки',
     },
@@ -43,5 +44,5 @@ export const productMenuItems  = {
     decor: {
         path: '/portfolio/decor',
         title: 'Освещение\u00A0и\u00A0декор',
-    },
+    },*/
 }

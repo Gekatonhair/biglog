@@ -1,4 +1,4 @@
-declare module '*.less' {
+declare module '*.scss' {
     interface IClassName {
         [className: string]: string;
     }

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {Col, Container, Row} from 'react-bootstrap';
 import {mainMenuItems, productMenuItems} from 'сonstants';
 import {getSvgByKey} from 'utils';
 import Contacts from 'components/Contacts/Contacts';
@@ -7,8 +8,8 @@ import Logo from 'static/images/svgs/logo.svg';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import * as styles from 'styles/pages/index.module.less';
-import 'styles/index.less';
+import * as styles from 'styles/pages/index.module.scss';
+import 'styles/index.scss';
 
 const mainMenu: JSX.Element = (
     <nav className={styles.mainMenu}>
@@ -53,19 +54,26 @@ const productMenu: JSX.Element = (
 );
 
 const IndexPage = () => (
-    <div className={styles.content}>
-        <main className={styles.main}>
-            <div className={styles.column}>
-                <div className={styles.margin}> </div>
-                <Logo className={styles.logo} />
+    <Container fluid className={styles.layout_container}>
+
+        <Row className={`w-100 ${styles.row}`}>
+            <Col xs={12} sm={12} md={12} lg={6} className={styles.col_1}>
                 {mainMenu}
-            </div>
-            <div className={styles.column}>{productMenu}</div>
-        </main>
-        <footer className={styles.footer}>
-            <Contacts />
-        </footer>
-    </div>
+                <Logo className={styles.logo} />
+            </Col>
+
+            <Col xs={12} sm={12} md={12} lg={6}>
+                {productMenu}
+            </Col>
+        </Row>
+
+        <Row className={`w-100 h-100 ${styles.rowFooter}`}>
+            <footer className={styles.footer}>
+                <Contacts />
+            </footer>
+        </Row>
+
+    </Container>
 );
 
 export default IndexPage;

@@ -5,7 +5,7 @@ module.exports = {
     },
     plugins: [
         'gatsby-plugin-image',
-        'gatsby-plugin-less',
+        'gatsby-plugin-sass',
         'gatsby-plugin-root-import',
         'gatsby-plugin-sharp',
         'gatsby-transformer-sharp',

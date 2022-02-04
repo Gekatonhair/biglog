@@ -4,9 +4,8 @@ import {Breadcrumb} from 'gatsby-plugin-breadcrumb';
 import Contacts from 'components/Contacts/Contacts';
 import MainMenu from 'components/MainMenu/MainMenu';
 import ProductMenu from 'components/ProductMenu/ProductMenu';
-import RootPhotoSwipe from 'components/PhotoSwipe/RootPhotoSwipe';
 
-import * as styles from './style.module.less';
+import * as styles from './style.module.scss';
 
 interface IProps {
     children, location, title, crumbLabel?
@@ -38,8 +37,7 @@ const Layout: FC<IProps> = (props) => {
                     <p>{`LoftWood.Design © ${new Date().getFullYear()}`}</p>
                 </footer>
             </div>
-
-            <RootPhotoSwipe />
+            
         </Container>
     );
 };

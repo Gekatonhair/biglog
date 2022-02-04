@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Layout from 'components/Layout/Layout';
-//import 'styles/index.less';
+//import 'styles/index.scss';
 
 const TITLE = 'О нас';
 

@@ -3,7 +3,7 @@ import {productMenuItems} from 'сonstants';
 import cx from 'classnames';
 import {getSvgByKey} from 'utils';
 
-import * as styles from './style.module.less';
+import * as styles from './style.module.scss';
 
 const ProductMenu = ({isShowIcon = true}) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

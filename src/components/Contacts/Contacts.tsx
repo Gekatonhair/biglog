@@ -5,7 +5,7 @@ import instImg from 'static/images/icons/instagram.png';
 import mailImg from 'static/images/icons/mail.png';
 //import vkImg from 'static/images/icons/vk.png';
 
-import * as styles from './style.module.less';
+import * as styles from './style.module.scss';
 
 const Contacts = () => {
     const t = (val) => val;
