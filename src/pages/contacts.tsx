@@ -12,7 +12,7 @@ const Contacts = ({location}) => {
             <Col>
                 <h3>
                     <a href="https://yandex.ru/maps/-/CCUyvPsGGB" target="_blank">
-                        Шоурум: Ростов-на-Дону, Каскадная улица, 200
+                        Шоурум: Ростов-на-Дону, Каскадная улица, 200, cтудия ландшафтного дизайна Assa
                     </a>
                 </h3>
 

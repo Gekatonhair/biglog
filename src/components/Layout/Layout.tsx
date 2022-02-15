@@ -1,19 +1,21 @@
-import React, { FC } from 'react';
+import React, {FC} from 'react';
 import {Container, Row} from 'react-bootstrap';
-import {Breadcrumb} from 'gatsby-plugin-breadcrumb';
+import Breadcrumb from 'components/Breadcrumb/Breadcrumb';
 import Contacts from 'components/Contacts/Contacts';
 import MainMenu from 'components/MainMenu/MainMenu';
 import ProductMenu from 'components/ProductMenu/ProductMenu';
-
 import * as styles from './style.module.scss';
 
 interface IProps {
-    children, location, title, crumbLabel?
+    children;
+    location?;
+    title;
+    crumbLabel?;
 }
 
 const Layout: FC<IProps> = (props) => {
-    const { children, location, title, crumbLabel} = props;
-    console.log(location);
+    const {children, title} = props;
+
     return (
         <Container fluid className={styles.layout_container}>
             <ProductMenu />
@@ -25,7 +27,7 @@ const Layout: FC<IProps> = (props) => {
 
                 <main className={styles.content}>
                     <Row>
-                        <Breadcrumb location={location} crumbLabel={crumbLabel || title } />
+                        <Breadcrumb title={title} />
                         <h1>{title}</h1>
                     </Row>
 
@@ -37,7 +39,6 @@ const Layout: FC<IProps> = (props) => {
                     <p>{`LoftWood.Design © ${new Date().getFullYear()}`}</p>
                 </footer>
             </div>
-            
         </Container>
     );
 };

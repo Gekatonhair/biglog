@@ -24,13 +24,16 @@
     background: none;
     cursor: pointer;
     overflow: visible;
+    -webkit-appearance: none;
     display: block;
     border: 0;
     padding: 0;
     margin: 0;
     float: right;
     opacity: 0.75;
+    -webkit-transition: opacity 0.2s;
     transition: opacity 0.2s;
+    -webkit-box-shadow: none;
     box-shadow: none;
 }
 .pswp__button:focus,
@@ -60,11 +63,11 @@
     height: 44px;
 }
 
-/*@media (-webkit-min-device-pixel-ratio: 1.1),
-(-webkit-min-device-pixel-ratio: 1.09375),
-(min-resolution: 105dpi),
-(min-resolution: 1.1dppx) {
-    // Serve SVG sprite if browser supports SVG and resolution is more than 105dpi
+@media (-webkit-min-device-pixel-ratio: 1.1),
+    (-webkit-min-device-pixel-ratio: 1.09375),
+    (min-resolution: 105dpi),
+    (min-resolution: 1.1dppx) {
+    /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
     .pswp--svg .pswp__button,
     .pswp--svg .pswp__button--arrow--left:before,
     .pswp--svg .pswp__button--arrow--right:before {
@@ -74,7 +77,7 @@
     .pswp--svg .pswp__button--arrow--right {
         background: none;
     }
-}*/
+}
 
 .pswp__button--close {
     background-position: 0 -44px;
@@ -418,7 +421,7 @@ a.pswp__share--download:hover {
     background: none;
     margin: 0;
 }
-/*
+
 @media screen and (max-width: 1024px) {
     .pswp__preloader {
         position: relative;
@@ -479,7 +482,7 @@ a.pswp__share--download:hover {
         -webkit-transform: rotate(0);
         transform: rotate(0);
     }
-}*/
+}
 
 /*
 
@@ -566,4 +569,3 @@ a.pswp__share--download:hover {
 .pswp--minimal--dark .pswp__top-bar {
     background: none;
 }
-
