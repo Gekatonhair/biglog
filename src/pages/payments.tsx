@@ -2,14 +2,14 @@ import * as React from 'react';
 import {Col} from 'react-bootstrap';
 import Layout from 'components/Layout/Layout';
 import paymentsImg from 'static/images/originals/pages/payments.jpg';
-import * as layoutStyles from 'components/Layout/style.module.scss';
+import * as styles from 'styles/pages/payments.module.scss';
 
 const TITLE = 'Доставка и оплата';
 
 const Payments = ({location}) => {
     return (
         <Layout title={TITLE} location={location}>
-            <Col>
+            <Col xs={12} sm={12} md={12} lg={5}>
                 <ul>
                     <h2>Оплата</h2>
                     <li>Заключаем договор. Работаем с физическими и юридическими лицами</li>
@@ -32,8 +32,8 @@ const Payments = ({location}) => {
                 </ul>
             </Col>
 
-            <Col xs={6} md={6} lg={6}>
-                <img src={paymentsImg} alt={''} className={layoutStyles.img}/>
+            <Col xs={12} sm={12} md={12} lg={{span: 6, offset: 1}}>
+                <img className={styles.img} src={paymentsImg} alt={''} />
             </Col>
 
         </Layout>

@@ -67,7 +67,7 @@ const IndexPage = () => (
             </Col>
         </Row>
 
-        <Row className={`w-100 h-100 ${styles.rowFooter}`}>
+        <Row className={`w-100 h-100`}>
             <footer className={styles.footer}>
                 <Contacts />
             </footer>

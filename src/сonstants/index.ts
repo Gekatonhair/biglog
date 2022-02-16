@@ -31,15 +31,15 @@ export const productMenuItems  = {
     },
     /*tables: {
         path: '/portfolio/tables',
-        title: 'Столы,\u00A0столешницы\u00A0и барные\u00A0стойки',
+        title: 'Столы,\u00A0столешницы и\u00A0барные\u00A0стойки',
     },
     ladder: {
         path: '/portfolio/ladder',
-        title: 'Лестницы\u00A0и ступени',
+        title: 'Лестницы\u00A0и\u00A0ступени',
     },
     kitchen: {
         path: '/portfolio/kitchen',
-        title: 'Кухни,\u00A0фасады\u00A0и мебель\u00A0для\u00A0хранения',
+        title: 'Кухни\u00A0и\u00A0мебель\u00A0для хранения',
     },
     decor: {
         path: '/portfolio/decor',

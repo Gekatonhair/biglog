@@ -5,9 +5,36 @@ ul {
     list-style-type: none;
 }
 
-
-a{
+a {
     text-decoration: none;
+}
+
+@media screen and (max-width: $md) {
+    svg.logo {
+        margin-left: 1em !important;
+        width: inherit !important;
+    }
+
+    nav.mainMenu {
+        margin-left: 1em !important;
+    }
+
+    nav.productMenu {
+        padding: 0 !important;
+        margin: 0 !important;
+
+        ul{
+            width: auto !important;
+
+            a{
+                padding: 0.5em 1em !important;
+
+                .listIcon {
+                    margin-right: 1em !important;
+                }
+            }
+        }
+    }
 }
 
 .layout_container {
@@ -15,15 +42,14 @@ a{
     margin: 0 !important;
     padding: 0 !important;
     display: flex;
-    //flex-wrap: nowrap !important;
     flex-direction: column;
 }
 
-.row{
+.row {
     min-height: calc(100vh - $footerHeight);
 }
 
-.col_1{
+.col_1 {
     display: flex;
     flex-direction: column-reverse;
 }

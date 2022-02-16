@@ -1,5 +1,27 @@
 @import 'src/styles/variables';
 
+@media screen and (max-width: $md) {
+    nav.product_menu {
+        position: absolute;
+        height: 75px;
+        background: transparent !important;
+
+        ul {
+            display: none;
+        }
+    }
+
+    nav.product_menu.active {
+        position: fixed;
+        height: 100%;
+        background: $color-dark !important;
+
+        ul {
+            display: block;
+        }
+    }
+}
+
 nav.product_menu {
     width: 65px;
     background: $color-dark;

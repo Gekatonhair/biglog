@@ -9,7 +9,7 @@ const TITLE = mainMenuItems.contacts.title;
 const Contacts = ({location}) => {
     return (
         <Layout title={TITLE} location={location}>
-            <Col>
+            <Col xs={12} sm={12} md={12} lg={5}>
                 <h3>
                     <a href="https://yandex.ru/maps/-/CCUyvPsGGB" target="_blank">
                         Шоурум: Ростов-на-Дону, Каскадная улица, 200, cтудия ландшафтного дизайна Assa
@@ -35,7 +35,7 @@ const Contacts = ({location}) => {
                 </h3>
             </Col>
 
-            <Col>
+            <Col xs={12} sm={12} md={12} lg={{span: 6, offset: 1}}>
                 <YandexMap />
             </Col>
         </Layout>

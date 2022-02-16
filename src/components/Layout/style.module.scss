@@ -1,19 +1,33 @@
 @import 'src/styles/variables';
 
+@media screen and (max-width: $md) {
+    .layout_container {
+        .column {
+            header {
+                padding-left: 10em;
+            }
+
+            main.content {
+                padding: 1.5em 2em 2em 3em !important;
+            }
+        }
+    }
+}
+
 .layout_container {
     height: inherit;
     margin: 0 !important;
     padding: 0 !important;
     display: flex;
-    flex-wrap: nowrap !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
 
     .column {
-        height: 100%;
-        width: 100%;
         height: auto;
+        width: inherit;
         display: flex;
         flex-direction: column;
-        //overflow: scroll;
+        flex-grow: 1;
 
         header {
             align-content: flex-start;
@@ -21,9 +35,8 @@
         }
 
         main.content {
-            width: 100%;
+            width: inherit;
             min-height: 1000px;
-            align-self: flex-start;
             display: flex;
             flex-direction: column;
             background: $color-light;
@@ -49,10 +62,6 @@
                     }
                 }
             }
-
-            /*h1 {
-                margin-left: calc(600px - 2.3em);
-            }*/
         }
 
         footer {
@@ -72,11 +81,4 @@
             }
         }
     }
-}
-
-.img{
-    width: 100%;
-    width: -moz-available;
-    width: -webkit-fill-available;
-    width: fill-available;
 }

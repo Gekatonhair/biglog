@@ -1,4 +1,30 @@
-.mainMenu{
+@import 'src/styles/variables';
+
+@media screen and (max-width: $lg) {
+    .logo {
+        min-width: 100px;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+}
+
+@media screen and (max-width: $md) {
+    .mainMenu {
+        height: auto !important;
+        text-align: right;
+        flex-direction: column;
+
+        .logo {
+            display: none;
+        }
+
+        ul {
+            flex-direction: column;
+        }
+    }
+}
+
+.mainMenu {
     width: 100%;
     height: 75px;
     color: lightgray;
@@ -14,10 +40,10 @@
     }
 
     ul {
-      margin-top: 20px;
-      font-size: 1.2em;
-      list-style-type: none;
-      display: flex;
+        margin-top: 20px;
+        font-size: 1.2em;
+        list-style-type: none;
+        display: flex;
 
         a {
             color: lightgray;
@@ -26,8 +52,8 @@
             border-bottom: 2px solid transparent;
         }
 
-      a:hover {
-        border-color: white;
-      }
+        a:hover {
+            border-color: white;
+        }
     }
 }
