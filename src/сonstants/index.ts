@@ -1,19 +1,18 @@
-//type TMenu = Record<string, {path: string; title: string}>;
+type TMenu = Record<string, {path: string; title: string}>;
 
-export const mainMenuItems = {
+export const mainMenuItems: TMenu = {
     main: {
         path: '/',
         title: 'Главная',
-    },
-
-    payments: {
-        path: '/payments',
-        title: 'Доставка\u00A0и\u00A0оплата',
     },
     /*articles: {
         path: '/articles',
         title: 'Статьи',
     },*/
+    payments: {
+        path: '/payments',
+        title: 'Доставка\u00A0и\u00A0оплата',
+    },
     about: {
         path: '/about',
         title: `О\u00A0нас`,
@@ -24,7 +23,7 @@ export const mainMenuItems = {
     },
 };
 
-export const productMenuItems  = {
+export const productMenuItems: TMenu  = {
     fences: {
         path: '/portfolio/fences',
         title: 'Заборы\u00A0и\u00A0фасады',

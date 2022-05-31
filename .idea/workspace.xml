@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db90ab80-9d61-432d-9eec-b2c9f6cc0397" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/styles/pages/payments.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlea6fdf2ba264ca303.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainMenu/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainMenu/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductMenu/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductMenu/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/payments.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/payments.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/pages/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/portfolio/fences.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/portfolio/fences.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/images/fon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/images/fon.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/сonstants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/сonstants/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +40,10 @@
   <component name="ProjectId" id="2035KpZSTShNj6rx4RqNemm80CF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -53,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
@@ -62,11 +60,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/static/images" />
       <recent name="$PROJECT_DIR$/src/styles/pages" />
       <recent name="$PROJECT_DIR$/src/components/Breadcrumb" />
       <recent name="$PROJECT_DIR$/src/components/Photoswipe" />
-      <recent name="$PROJECT_DIR$/src/static/images/originals/pages/fences" />
-      <recent name="$PROJECT_DIR$/src/static/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
@@ -74,7 +72,7 @@
       <recent name="$PROJECT_DIR$/src/static" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.develop (1)">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -127,9 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.develop (1)" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.develop (1)" />
         <item itemvalue="npm.clean" />
         <item itemvalue="npm.develop" />
       </list>
@@ -157,7 +155,15 @@
       <workItem from="1642598854478" duration="10357000" />
       <workItem from="1643018974164" duration="19790000" />
       <workItem from="1643662931027" duration="31494000" />
-      <workItem from="1644959139245" duration="11474000" />
+      <workItem from="1644959139245" duration="12554000" />
+      <workItem from="1645026555586" duration="294000" />
+      <workItem from="1645026874189" duration="450000" />
+      <workItem from="1645083994928" duration="1253000" />
+      <workItem from="1645370583203" duration="358000" />
+      <workItem from="1645435347474" duration="372000" />
+      <workItem from="1645641085993" duration="556000" />
+      <workItem from="1652183769773" duration="992000" />
+      <workItem from="1654006135670" duration="408000" />
     </task>
     <servers />
   </component>
