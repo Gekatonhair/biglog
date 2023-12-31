@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="db90ab80-9d61-432d-9eec-b2c9f6cc0397" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/googlea6fdf2ba264ca303.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Constants/fenses.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Constants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/termo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/payments.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/payments.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Photoswipe/_default-skin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Photoswipe/galery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Photoswipe/galery.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/portfolio/fences.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/portfolio/fences.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/images/fon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/images/fon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/portfolio/tables.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/portfolio/tables.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/images/originals/pages/fences/classic_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/images/originals/pages/fences/classic_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/сonstants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/сonstants/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +44,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />
   </component>
@@ -45,34 +58,36 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/slushnikov/work/loftwood",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/slushnikov/work/loftwood/node_modules/prettier",
+    "ts.external.directory.path": "/Users/slushnikov/work/loftwood/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/static/images/svgs" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/static/images" />
       <recent name="$PROJECT_DIR$/src/styles/pages" />
       <recent name="$PROJECT_DIR$/src/components/Breadcrumb" />
-      <recent name="$PROJECT_DIR$/src/components/Photoswipe" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/static/images/svgs" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/pages/portfolio" />
       <recent name="$PROJECT_DIR$/src/static" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.develop (1)">
+  <component name="RunManager" selected="npm.develop">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -93,7 +108,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="develop (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="develop" type="js.build_tools.npm" temporary="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -103,11 +118,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="develop" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/loftwood/package.json" />
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="develop" />
+        <script value="serve" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -123,13 +138,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.clean" />
+      <item itemvalue="npm.develop" />
+      <item itemvalue="npm.serve" />
+      <item itemvalue="npm.start" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.develop (1)" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.clean" />
         <item itemvalue="npm.develop" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.serve" />
+        <item itemvalue="npm.clean" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +185,13 @@
       <workItem from="1645435347474" duration="372000" />
       <workItem from="1645641085993" duration="556000" />
       <workItem from="1652183769773" duration="992000" />
-      <workItem from="1654006135670" duration="408000" />
+      <workItem from="1654006135670" duration="1654000" />
+      <workItem from="1654157416397" duration="3333000" />
+      <workItem from="1669989598488" duration="1164000" />
+      <workItem from="1672398916792" duration="4516000" />
+      <workItem from="1673249431401" duration="489000" />
+      <workItem from="1673429062932" duration="856000" />
+      <workItem from="1704021898406" duration="2398000" />
     </task>
     <servers />
   </component>
@@ -180,7 +208,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
