@@ -24,11 +24,15 @@ export const mainMenuItems: TMenu = {
 };
 
 export const productMenuItems: TMenu  = {
+    termo: {
+        path: '/portfolio/termo',
+        title: 'Термодревисина',
+    },
     fences: {
         path: '/portfolio/fences',
         title: 'Заборы\u00A0и\u00A0фасады',
     },
-    /*tables: {
+    tables: {
         path: '/portfolio/tables',
         title: 'Столы,\u00A0столешницы и\u00A0барные\u00A0стойки',
     },
@@ -43,5 +47,5 @@ export const productMenuItems: TMenu  = {
     decor: {
         path: '/portfolio/decor',
         title: 'Освещение\u00A0и\u00A0декор',
-    },*/
+    },
 }

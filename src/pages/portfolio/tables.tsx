@@ -1,8 +1,8 @@
 import * as React from "react"
 import Layout from 'components/Layout/Layout';
-//import {productMenuItems} from 'сonstants';
+import {productMenuItems} from 'сonstants';
 
-const TITLE = 'productMenuItems.tables.title';
+const TITLE = productMenuItems.tables.title;
 
 const TablesPage = ({location}) => <Layout title={TITLE} location={location}>
     <p>Изготавливаем столы и столешницы по индивидуальным размерам и дизайну.

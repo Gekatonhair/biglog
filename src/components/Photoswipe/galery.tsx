@@ -4,11 +4,19 @@ import {PhotoSwipeGallery} from 'react-photoswipe';
 import './photoswipe.css';
 import './default-skin.scss';
 
+export interface IGalleryItem {
+    smallItemStyles: string;
+    src: string;
+    thumbnail: string;
+    thumbnailHeight: number;
+    thumbnailWidth: number;
+}
+
 const smallItemStyles: React.CSSProperties = {
     cursor: 'pointer',
     objectFit: 'cover',
     width: '100%',
-    height: 'auto'
+    height: 'auto',
 };
 
 const BASE_STYLE: React.CSSProperties = {
@@ -24,7 +32,7 @@ let options = {
     shareEl: false,
 };
 
-const getThumbnailContent = (item) => (
+const getThumbnailContent = (item: IGalleryItem) => (
     <img
         src={item.thumbnail || item.src}
         style={smallItemStyles}
@@ -35,7 +43,7 @@ const getThumbnailContent = (item) => (
 
 const Galery = ({items, style = BASE_STYLE}) => (
     <div style={style}>
-        <PhotoSwipeGallery items={items} options={options} thumbnailContent={getThumbnailContent} style={style}/>
+        <PhotoSwipeGallery items={items} options={options} thumbnailContent={getThumbnailContent} style={style} />
     </div>
 );
 
