@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db90ab80-9d61-432d-9eec-b2c9f6cc0397" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Constants/fenses.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Constants/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/termo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/termo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/icons/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/logo2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/logo_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/svgs/terrace.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Photoswipe/_default-skin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Photoswipe/galery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Photoswipe/galery.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/portfolio/fences.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/portfolio/fences.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/portfolio/tables.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/portfolio/tables.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/images/originals/pages/fences/classic_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/images/originals/pages/fences/classic_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Instagram/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Instagram/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainMenu/MainMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainMenu/MainMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/YandexMap/YandexMap.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/YandexMap/YandexMap.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/images/svgs/ladder.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/сonstants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/сonstants/index.ts" afterDir="false" />
     </list>
@@ -61,7 +65,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/slushnikov/work/loftwood",
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "/Users/slushnikov/work/loftwood/src/static/images/svgs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,12 +80,13 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/static/images/svgs" />
+      <recent name="$PROJECT_DIR$/src/static/images/icons" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/static/images" />
       <recent name="$PROJECT_DIR$/src/styles/pages" />
-      <recent name="$PROJECT_DIR$/src/components/Breadcrumb" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/static/images/icons" />
       <recent name="$PROJECT_DIR$/src/static/images/svgs" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/pages/portfolio" />
@@ -191,7 +197,8 @@
       <workItem from="1672398916792" duration="4516000" />
       <workItem from="1673249431401" duration="489000" />
       <workItem from="1673429062932" duration="856000" />
-      <workItem from="1704021898406" duration="2398000" />
+      <workItem from="1704021898406" duration="6110000" />
+      <workItem from="1704127862086" duration="26134000" />
     </task>
     <servers />
   </component>

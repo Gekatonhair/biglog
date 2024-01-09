@@ -15,10 +15,10 @@ const Contacts = () => {
             <a href="tel:+79081706761">
                 <img src={telImg} title={t('call')} alt={t('call')} />
             </a>
-            <a href="https://www.instagram.com/loftwood.design/" target="_blank">
+            <a href="https://www.instagram.com/big.bad.log/" target="_blank">
                 <img src={instImg} title={t('instagram')} alt={t('instagram')} />
             </a>
-            <a href="mailto:info@loftwood.ru" target="_blank">
+            <a href="mailto:info@biglog.ru" target="_blank">
                 <img src={mailImg} title={t('mail')} alt={t('mail')} />
             </a>
             {/*

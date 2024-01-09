@@ -4,7 +4,7 @@ import {mainMenuItems, productMenuItems} from 'сonstants';
 import {getSvgByKey} from 'utils';
 import Contacts from 'components/Contacts/Contacts';
 import {Link} from 'gatsby';
-import Logo from 'static/images/svgs/logo.svg';
+import Logo from 'static/images/svgs/logo2.svg';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

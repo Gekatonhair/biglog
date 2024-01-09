@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'gatsby';
 import {mainMenuItems} from 'сonstants';
-import Logo from 'static/images/svgs/logo.svg';
+import Logo from 'static/images/svgs/logo2.svg';
 import * as styles from './style.module.scss';
 
 const MainMenu = ({className = styles.mainMenu}) => (
