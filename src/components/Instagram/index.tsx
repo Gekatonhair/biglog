@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, {useEffect} from 'react';
 
 const Instagram = () => {
-    const url = 'https://www.instagram.com/loftwood.design/?__a=1'
+    const url = 'https://www.instagram.com/big.bad.log/?__a=1'
 
     useEffect(() => {
         /*try {

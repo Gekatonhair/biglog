@@ -36,7 +36,7 @@ const Layout: FC<IProps> = (props) => {
 
                 <footer className={styles.footer}>
                     <Contacts />
-                    <p>{`LoftWood.Design © ${new Date().getFullYear()}`}</p>
+                    <p>{`BIG LOG © ${new Date().getFullYear()}`}</p>
                 </footer>
             </div>
         </Container>

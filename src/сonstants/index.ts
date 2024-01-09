@@ -5,10 +5,14 @@ export const mainMenuItems: TMenu = {
         path: '/',
         title: 'Главная',
     },
-    /*articles: {
+    services: {
+        path: '/services',
+        title: 'Услуги',
+    },
+    articles: {
         path: '/articles',
         title: 'Статьи',
-    },*/
+    },
     payments: {
         path: '/payments',
         title: 'Доставка\u00A0и\u00A0оплата',
@@ -24,13 +28,13 @@ export const mainMenuItems: TMenu = {
 };
 
 export const productMenuItems: TMenu  = {
-    termo: {
-        path: '/portfolio/termo',
-        title: 'Термодревисина',
-    },
     fences: {
         path: '/portfolio/fences',
-        title: 'Заборы\u00A0и\u00A0фасады',
+        title: 'Заборы\u00A0и\u00A0перголы',
+    },
+    terrace: {
+        path: '/portfolio/terrace',
+        title: 'Террасы\u00A0и\u00A0фасады',
     },
     tables: {
         path: '/portfolio/tables',
